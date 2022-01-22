@@ -25,7 +25,7 @@ btn.onclick = function () {
         j--;
     }
     let teg = document.createElement('p');
-    let isi = document.createTextNode(`Kelompok ke ${i + 1} : ${arr[i]}`)
+    let isi = document.createTextNode(`Kelompok ${i + 1} : ${arr[i]}`)
     teg.appendChild(isi);
     main.appendChild(teg);
     main.classList.add('kelompok')

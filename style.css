@@ -6,7 +6,7 @@
 body {
     font-family: monospace, Helvetica, sans-serif;
     font-size: 18px;
-    line-height: normal;
+    line-height: 1.4;
     background-color: rgb(0, 14, 29);
     text-transform: capitalize;
 }
@@ -15,7 +15,6 @@ body {
 
 .container {
     width: 900px;
-    height: 1000px;
     margin: 25px auto;  
     background-color: #00203FFF;
     position: relative;
@@ -73,5 +72,12 @@ input::-webkit-inner-spin-button {
 
 .kelompok {
     color: #ADEFD1FF;
-    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.main .note {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #ADEFD1FF;
+    
 }
