@@ -31,3 +31,11 @@ btn.onclick = function () {
     main.classList.add('kelompok')
   }
 };
+
+let btnClear = document.querySelector('.btn-reset');
+let inputs = document.querySelectorAll('input');
+
+btnClear.addEventListener('click', () => {
+    inputs.forEach(input =>  input.value = '');
+    location.reload();
+});
