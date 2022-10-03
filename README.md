@@ -1,3 +1,2 @@
 # echaapriliyanto.github.io
-Kelompok Kelas Generator
-- My first website 
+#This is my first website 
